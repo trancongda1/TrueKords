@@ -97,7 +97,6 @@
             <div class="cont-bot"></div>
             <div class="footerlink">
                 <p class="lf">Bản quyền &copy; 2023 <a href="#">Music Beats</a> - Bảo Lưu Tất Cả Quyền</p>
-                <p class="rf">Thiết kế bởi <a href="http://www.templatemonster.com/">TemplateMonster</a></p>
                 <div style="clear:both;"></div>
             </div>
         </div>

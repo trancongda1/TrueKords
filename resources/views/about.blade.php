@@ -156,8 +156,7 @@
     <footer>
         <div class="container">
             <div class="footerlink">
-                <p class="lf">Bản quyền &copy; 2023 <a href="#">Music Beats</a> - Bảo Lưu Tất Cả Quyền</p>
-                <p class="rf">Thiết kế bởi <a href="http://www.templatemonster.com/">TemplateMonster</a></p>
+                <p class="lf">Bản quyền &copy; 2023 <a href="#">Music Beats</a> - Bảo Lưu Tất Cả Quyền</p>   
                 <div style="clear:both;"></div>
             </div>
         </div>

@@ -49,11 +49,11 @@
                 <h1><a href="#">Music Beats</a></h1>
                 <nav>
                     <ul>
-                        <li class="m1"><a href="/songs"><span>Bài Hát</span></a></li>
+                        <li class="m1"><a href="/songs" class="active"><span>Bài Hát</span></a></li>
                         <li class="m2"><a href="/playlists"><span>Danh Sách Phát</span></a></li>
                         <li class="m2"><a href="/profile"><span>Hồ Sơ</span></a></li>
                         <li class="m3"><a href="/contribute"><span>Đóng Góp</span></a></li>
-                        <li class="m4"><a href="/about" class="active"><span>Về Chúng Tôi</span></a></li>
+                        <li class="m4"><a href="/about"><span>Về Chúng Tôi</span></a></li>
                     </ul>
                 </nav>
             </div>
@@ -96,7 +96,6 @@
             <div class="cont-bot"></div>
             <div class="footerlink">
                 <p class="lf">Copyright &copy; 2023 <a href="#">SiteName</a> - All Rights Reserved</p>
-                <p class="rf">Design by <a href="http://www.templatemonster.com/">TemplateMonster</a></p>
                 <div style="clear:both;"></div>
             </div>
         </div>
