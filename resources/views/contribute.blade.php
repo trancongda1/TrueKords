@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
-    <title>Contribute - Music Beats</title>
+    <title>Đóng Góp - Music Beats</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -11,7 +11,6 @@
     <script type="text/javascript" src="js/cufon-yui.js"></script>
     <script type="text/javascript" src="js/cufon-replace.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/ITC_Busorama_500.font.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         a {
@@ -43,18 +42,18 @@
 </head>
 
 <body id="page1">
-    <!-- START PAGE SOURCE -->
+    <!-- BẮT ĐẦU NGUỒN TRANG -->
     <div class="wrap">
         <header>
             <div class="container">
                 <h1><a href="#">Music Beats</a></h1>
                 <nav>
                     <ul>
-                        <li class="m1"><a href="/songs"><span>Songs</span></a></li>
-                        <li class="m2"><a href="/playlists"><span>Playlists</span></a></li>
-                        <li class="m2"><a href="/profile"><span>Profile</span></a></li>
-                        <li class="m3"><a href="/contribute" class="active"><span>Contribute</span></a></li>
-                        <li class="m4"><a href="/about"><span>About Us</span></a></li>
+                        <li class="m1"><a href="/songs"><span>Bài Hát</span></a></li>
+                        <li class="m2"><a href="/playlists"><span>Danh Sách Phát</span></a></li>
+                        <li class="m2"><a href="/profile"><span>Hồ Sơ</span></a></li>
+                        <li class="m3"><a href="/contribute" class="active"><span>Đóng Góp</span></a></li>
+                        <li class="m4"><a href="/about"><span>Về Chúng Tôi</span></a></li>
                     </ul>
                 </nav>
             </div>
@@ -63,29 +62,29 @@
             <section id="content">
                 <div class="wrapper">
                     <article class="col-1 contribute-section">
-                        <h2>How You Can Contribute</h2>
-                        <p>At Music Beats, we welcome contributions from our community to help us grow and improve. Here are a few ways you can get involved:</p>
+                        <h2>Cách Bạn Có Thể Đóng Góp</h2>
+                        <p>Tại Music Beats, chúng tôi hoan nghênh sự đóng góp từ cộng đồng để giúp chúng tôi phát triển và cải thiện. Dưới đây là một số cách bạn có thể tham gia:</p>
                         <ul>
-                            <li><strong>Submit Music</strong> - Share your music with us to be featured on our platform.</li>
-                            <li><strong>Report Issues</strong> - Help us identify and fix any bugs or issues you encounter.</li>
-                            <li><strong>Provide Feedback</strong> - Share your thoughts and suggestions on how we can enhance our services.</li>
-                            <li><strong>Volunteer</strong> - Join our team as a volunteer to assist with various tasks and projects.</li>
+                            <li><strong>Gửi Nhạc</strong> - Chia sẻ nhạc của bạn để chúng tôi có thể giới thiệu trên nền tảng của chúng tôi.</li>
+                            <li><strong>Báo Cáo Vấn Đề</strong> - Giúp chúng tôi xác định và khắc phục các lỗi hoặc sự cố bạn gặp phải.</li>
+                            <li><strong>Đưa Ra Phản Hồi</strong> - Chia sẻ suy nghĩ và gợi ý của bạn về cách chúng tôi có thể cải thiện dịch vụ của mình.</li>
+                            <li><strong>Trở Thành Tình Nguyện Viên</strong> - Tham gia vào đội ngũ của chúng tôi với vai trò tình nguyện viên để hỗ trợ các công việc và dự án khác nhau.</li>
                         </ul>
-                        <p>If you have any other ideas or would like to get involved in a different way, please don't hesitate to reach out to us.</p>
+                        <p>Nếu bạn có bất kỳ ý tưởng nào khác hoặc muốn tham gia theo cách khác, xin đừng ngần ngại liên hệ với chúng tôi.</p>
                     </article>
                     <article class="col-2 contribute-section">
-                        <h3>Contact Us</h3>
+                        <h3>Liên Hệ Với Chúng Tôi</h3>
                         <form class="contact-form" action="#" method="post">
-                            <label for="name">Your Name:</label>
+                            <label for="name">Tên Của Bạn:</label>
                             <input type="text" id="name" name="name" required>
                             
-                            <label for="email">Your Email:</label>
+                            <label for="email">Email Của Bạn:</label>
                             <input type="email" id="email" name="email" required>
                             
-                            <label for="message">Your Message:</label>
+                            <label for="message">Tin Nhắn Của Bạn:</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
                             
-                            <button type="submit">Send Message</button>
+                            <button type="submit">Gửi Tin Nhắn</button>
                         </form>
                     </article>
                 </div>
@@ -97,8 +96,8 @@
         <div class="container">
             <div class="cont-bot"></div>
             <div class="footerlink">
-                <p class="lf">Copyright &copy; 2023 <a href="#">Music Beats</a> - All Rights Reserved</p>
-                <p class="rf">Design by <a href="http://www.templatemonster.com/">TemplateMonster</a></p>
+                <p class="lf">Bản quyền &copy; 2023 <a href="#">Music Beats</a> - Bảo Lưu Tất Cả Quyền</p>
+                <p class="rf">Thiết kế bởi <a href="http://www.templatemonster.com/">TemplateMonster</a></p>
                 <div style="clear:both;"></div>
             </div>
         </div>
@@ -106,7 +105,7 @@
     <script type="text/javascript">
         Cufon.now();
     </script>
-    <!-- END PAGE SOURCE -->
+    <!-- KẾT THÚC NGUỒN TRANG -->
 </body>
 
 </html>

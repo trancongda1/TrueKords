@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
-    <title>Music Beats - Playlists</title>
+    <title>Music Beats - Danh Sách Phát</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -11,28 +11,8 @@
     <script type="text/javascript" src="js/cufon-yui.js"></script>
     <script type="text/javascript" src="js/cufon-replace.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/ITC_Busorama_500.font.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        
-         body, h1, h2, p, ul, li {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        header {
-            background-color: #fff;
-            border-bottom: 1px solid #ddd;
-            padding: 20px 0;
-        }
-
-        header .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
         header h1 a {
             color: #007bff;
             text-decoration: none;
@@ -108,11 +88,14 @@
 
         article img {
             max-width: 100%;
-            height: auto; /* Để giữ tỷ lệ khung hình */
-            object-fit: cover; /* Để ảnh không bị biến dạng */
+            height: auto;
+            /* Để giữ tỷ lệ khung hình */
+            object-fit: cover;
+            /* Để ảnh không bị biến dạng */
         }
 
-        .p1, .p0 {
+        .p1,
+        .p0 {
             margin-bottom: 20px;
         }
 
@@ -147,7 +130,6 @@
             color: #007bff;
             text-decoration: none;
         }
-        
     </style>
 </head>
 
@@ -157,11 +139,11 @@
             <h1><a href="#">Music Beats</a></h1>
             <nav>
                 <ul>
-                    <li><a href="/songs" class="active"><span>Songs</span></a></li>
-                    <li><a href="/playlists"><span>Playlists</span></a></li>
-                    <li><a href="/profile"><span>Profile</span></a></li>
-                    <li><a href="/contribute"><span>Contribute</span></a></li>
-                    <li><a href="/about"><span>About Us</span></a></li>
+                    <li class="m1"><a href="/songs"><span>Bài Hát</span></a></li>
+                    <li class="m2"><a href="/playlists" class="active"><span>Danh Sách Phát</span></a></li>
+                    <li class="m2"><a href="/profile"><span>Hồ Sơ</span></a></li>
+                    <li class="m3"><a href="/contribute"><span>Đóng Góp</span></a></li>
+                    <li class="m4"><a href="/about"><span>Giới Thiệu</span></a></li>
                 </ul>
             </nav>
         </div>
@@ -170,11 +152,11 @@
     <div class="container">
         <aside>
             <div class="inside">
-                <h2>Latest News</h2>
+                <h2>Tin Tức Mới Nhất</h2>
                 <ul class="news">
-                    <li><a href="#">June 30, 2023</a><strong>New Chord Progressions Added</strong> Explore our latest collection of chord progressions to enhance your musical compositions.</li>
-                    <li><a href="#">June 14, 2023</a><strong>Updated Song Charts</strong> Check out the updated song charts featuring popular tracks and their chord structures.</li>
-                    <li><a href="#">May 29, 2023</a><strong>New Tutorials Available</strong> Learn new techniques with our latest tutorials on playing and composing music.</li>
+                    <li><a href="#">Ngày 30 tháng 6, 2023</a><strong>Thêm Các Tiến Trình Hợp Âm Mới</strong> Khám phá bộ sưu tập mới nhất của chúng tôi về các tiến trình hợp âm để nâng cao các bản nhạc của bạn.</li>
+                    <li><a href="#">Ngày 14 tháng 6, 2023</a><strong>Cập Nhật Bảng Xếp Hạng Bài Hát</strong> Xem bảng xếp hạng bài hát cập nhật với các bản hit và cấu trúc hợp âm của chúng.</li>
+                    <li><a href="#">Ngày 29 tháng 5, 2023</a><strong>Hướng Dẫn Mới</strong> Học các kỹ thuật mới với các hướng dẫn mới nhất của chúng tôi về chơi và sáng tác nhạc.</li>
                 </ul>
             </div>
         </aside>
@@ -182,20 +164,20 @@
         <section id="content">
             <div class="wrapper">
                 <article class="col-1">
-                    <h2>Explore Our Guitar Chords and Sheet Music</h2>
+                    <h2>Khám Phá Hợp Âm Guitar và Bản Nhạc</h2>
                     <!-- Thay thế ảnh bên dưới bằng ảnh liên quan đến guitar -->
-                    <img src="images/guitar1.jpg" alt="Guitar Chords">
-                    <p class="p1">At Music Beats, we offer a comprehensive library of guitar chord progressions and sheet music to inspire and support musicians of all levels. Whether you're an aspiring songwriter or an experienced composer, our resources can help you find the perfect chords for your next project.</p>
-                    <p class="p0">Browse our extensive collection of guitar chord charts, explore various musical styles, and find detailed sheet music to guide you through your musical journey. Our platform is designed to provide you with the tools you need to enhance your creativity and improve your musical skills.</p>
+                    <img src="images/guitar1.jpg" alt="Hợp Âm Guitar">
+                    <p class="p1">Tại Music Beats, chúng tôi cung cấp một thư viện đầy đủ các tiến trình hợp âm guitar và bản nhạc để truyền cảm hứng và hỗ trợ nhạc sĩ ở mọi cấp độ. Dù bạn là một nhạc sĩ mới hay một nhà soạn nhạc dày dạn kinh nghiệm, các tài nguyên của chúng tôi có thể giúp bạn tìm thấy những hợp âm hoàn hảo cho dự án tiếp theo của mình.</p>
+                    <p class="p0">Duyệt qua bộ sưu tập hợp âm guitar phong phú của chúng tôi, khám phá các phong cách âm nhạc khác nhau và tìm bản nhạc chi tiết để hướng dẫn bạn trong hành trình âm nhạc của mình. Nền tảng của chúng tôi được thiết kế để cung cấp cho bạn các công cụ cần thiết để nâng cao sự sáng tạo và cải thiện kỹ năng âm nhạc của bạn.</p>
                 </article>
 
                 <article class="col-2">
-                    <h2>Recent Articles</h2>
+                    <h2>Các Bài Viết Gần Đây</h2>
                     <ul class="list">
-                        <li><strong>Understanding Guitar Chord Progressions</strong> Learn the fundamentals of guitar chord progressions and how they shape your music. Discover the theory behind popular progressions and how to apply them in your compositions. <a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><strong>Sheet Music for Guitarists</strong> Get started with our guitarist-friendly sheet music and tutorials. Perfect for those new to reading music and looking to improve their skills. <a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><strong>Advanced Guitar Techniques</strong> Explore advanced techniques for writing compelling guitar music. From complex chord changes to intricate melodies, our articles provide valuable insights for seasoned guitarists. <a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><strong>Popular Songs and Their Guitar Chords</strong> Discover the guitar chords used in popular songs and how to recreate them. Analyze the chord structures of famous tracks and learn how to incorporate them into your own music. <a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><strong>Hiểu Biết Về Tiến Trình Hợp Âm Guitar</strong> Tìm hiểu những kiến thức cơ bản về tiến trình hợp âm guitar và cách chúng hình thành âm nhạc của bạn. Khám phá lý thuyết đằng sau các tiến trình phổ biến và cách áp dụng chúng trong các tác phẩm của bạn. <a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><strong>Bản Nhạc Cho Guitar</strong> Bắt đầu với bản nhạc và hướng dẫn thân thiện với guitar của chúng tôi. Hoàn hảo cho những người mới học đọc nhạc và muốn cải thiện kỹ năng của mình. <a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><strong>Kỹ Thuật Guitar Nâng Cao</strong> Khám phá các kỹ thuật nâng cao để viết nhạc guitar hấp dẫn. Từ các thay đổi hợp âm phức tạp đến các giai điệu tinh xảo, các bài viết của chúng tôi cung cấp những cái nhìn quý giá cho những người chơi guitar dày dạn kinh nghiệm. <a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><strong>Các Bài Hát Phổ Biến và Hợp Âm Của Chúng</strong> Khám phá các hợp âm guitar được sử dụng trong các bài hát phổ biến và cách tái tạo chúng. Phân tích cấu trúc hợp âm của các bản hit nổi tiếng và học cách tích hợp chúng vào âm nhạc của bạn. <a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
                     </ul>
                 </article>
             </div>
@@ -207,7 +189,7 @@
     <footer>
         <div class="container">
             <div class="footerlink">
-                <p class="lf">Copyright &copy; 2023 <a href="#">Music Beats</a> - All Rights Reserved</p>
+                <p class="lf">Bản quyền &copy; 2023 <a href="#">Music Beats</a> - Đã Được Bảo Lưu Quyền</p>
             </div>
         </div>
     </footer>
