@@ -5,11 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class Song extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'email', 'password'];
+    protected $fillable = ['title', 'artist', 'album'];
+
+    // Quan hệ 1-n với Chord
+    public function chords()
+    {
+        return $this->hasMany(Chord::class);
+    }
 
     // Quan hệ 1-n với Comment
     public function comments()
@@ -29,15 +35,9 @@ class User extends Model
         return $this->hasMany(Rating::class);
     }
 
-    // Quan hệ 1-n với UserContribution
-    public function contributions()
-    {
-        return $this->hasMany(UserContribution::class);
-    }
-
     // Quan hệ n-n với Playlist qua PlaylistSong
     public function playlists()
     {
-        return $this->hasMany(Playlist::class);
+        return $this->belongsToMany(Playlist::class, 'playlist_songs');
     }
 }
